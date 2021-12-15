@@ -1,0 +1,50 @@
+How to download this repository from github: https://github.com/MicheleZanitti/PythonProject
+
+steps: if you don't have a folder for your project create it (0)
+       open a terminal and move to the folder you have created (1-2)
+       now 
+
+
+
+
+0. create a folder called "Projects" in Documents (or anywhere you want to store your projects)
+
+
+1. open a new terminal in jupyter: new>Terminal (a new tab will open)
+    you will see a bunch of text and at the end, something like this: 
+        
+        PS C:\Users\miche>
+        
+        or, if you are in windows:
+        
+        miche@LAPTOP-CIS494CN:/mnt/c/Users/miche$
+        
+    You can see from these lines that your current directory is miche (and the path to reach it from the root folder is everything behind)    
+    
+    Regardless of the operative system, you can write some commands after these lines. 
+    
+    
+    
+2. navigate where the Project folder is from the terminal, basic commands used are:
+    
+    ls             (it will show all files and subfolders contained in the current folder)
+    ls -l          (will show things with more details)
+    cd folder_name (stands for change directory, you will enter the folder folder_name)
+    cd ..          (go to the previous folder)
+    
+    
+    in our case, if you have created the folder Projects in Documents, the commands are:
+    check first that your current folder has a subfolder called Documents
+    
+        cd Documents
+        cd Projects
+        
+        
+3. Write the command to download a github repository: git clone <URL>
+    
+    git clone https://github.com/MicheleZanitti/PythonProject
+    
+    Hopefully everything works.
+        
+    
+    
